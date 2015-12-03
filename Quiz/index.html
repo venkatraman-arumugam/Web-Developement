@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Quiz</title>
+<link rel="stylesheet" href="css/mystyle.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</head>
+<body>
+  <div class="container-fluid bg-info">
+  <h3 id="answer"></h3>
+   <h3 id="final"></h3>
+    <div class="modal-dialog" style="" id="question">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h3 id="notification"></h3>
+              <h3 id="ques">  </h3>
+               <span class="label label-warning pull-right" id="qid" style=" 
+               right:0px;position: absolute;
+            top: 0px; margin-right: 1px;
+            margin-top: 2px;white-space: nowrap;"> </span>
+            
+        </div>
+        <div class="modal-body" style="height: 350;">
+          <div class="quiz" id="quiz" data-toggle="buttons" style="height:300px">
+           <label class="element-animation1 btn btn-lg btn-primary btn-block" ><span class="btn-label" ><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="0"><label id="choice1"></label></label>
+           <label class="element-animation2 btn btn-lg btn-primary btn-block" ><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"><label id="choice2"></label></label>
+           <label class="element-animation3 btn btn-lg btn-primary btn-block" ><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"><label id="choice3"></label></label>
+           <label class="element-animation4 btn btn-lg btn-primary btn-block" ><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"><label id="choice4"></label></label>
+
+           <button type="button" class=" element-animation4 btn btn-success glyphicon glyphicon glyphicon-backward" id="back" ></button>
+
+           <button type="button" class=" element-animation4 btn btn-success glyphicon glyphicon glyphicon-forward pull-right" id="next"></button>
+       </div>
+        
+  
+</div>
+   </div>
+   <div class="modal-footer text-muted">
+    <span id="answer"></span>
+</div>
+</div>
+</div>
+
+</body>
+</html>
