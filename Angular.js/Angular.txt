@@ -1,0 +1,23 @@
+Angular Directive:
+ng-app - root of the app
+ng-init - Initialize a Variable
+
+Angular Expressions:
+	Ex:<p>6+5 = {{6+5}}</p>
+		Expressions must be in {}
+
+		dish{
+			name:"pan"
+		}
+		{dish.name} must be in {} to display
+
+ngData Model;
+	Used to bump the data input to the webpage.
+	Two-Data Binding - assigning the property of HTML or CSS to JAVASCRIPT.
+
+ngRepeat Directive:
+	Loops over the javascript Array variable
+	Instantinous over a temlate
+	<ul>
+	<li ngRepeat="js array"></li>
+	</ul>
