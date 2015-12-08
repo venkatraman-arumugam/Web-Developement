@@ -1,0 +1,17 @@
+Angular Filters:
+	1) Allow to format the value of Exp.
+		ex: <span class="badge">{{dish.price | currency}}</span> //currency is filter
+
+	2) has many filters
+			upper/lower case
+			currency
+			date:formats the data
+			filter:selects a sub-set of array and return new array
+			orderBy:order the array
+			Others:json
+	3) Ex:
+			<li class="media" ng-repeat="dish in menuCtrl.dishes | filer:menuCtrl.filtText">..</li>
+
+	Excercise:
+		1) Setting bootstrap tabbed
+
