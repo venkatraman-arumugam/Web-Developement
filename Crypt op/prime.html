@@ -1,0 +1,139 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head 
+         content must come *after* these tags -->
+    <title>Ristorante Con Fusion</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    
+    <link href="css/mystyles.css" rel="stylesheet">
+	<title>Crypt Op</title>
+</head>
+<body >
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Crypt-Op</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="#">Eclidian</a>
+                    </li>
+                    <li class="active"><a href="">Prime</a></li>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+    <div class="container" onload="euclidian()">
+    	<div class="row">
+		  <div class="col-sm-10 col-md-11">
+		    <div class="thumbnail">
+		     <h1>CoPrime</h1>
+		      <div class="caption">
+		        <p1>In number theory, two integers a and b are said to be relatively prime, mutually prime, or coprime (also spelled co-prime)[1] if the only positive integer that evenly divides both of them is 1. That is, the only common positive factor of the two numbers is 1. This is equivalent to their greatest common divisor being 1.[2] The numerator and denominator of a reduced fraction are coprime. In addition to \gcd(a, b) = 1\; and (a, b) = 1,\; the notation a\perp b is sometimes used to indicate that a and b are relatively prime.[3]
+
+For example, 14 and 15 are coprime, being commonly divisible by only 1, but 14 and 21 are not, because they are both divisible by 7. The numbers 1 and −1 are the only integers coprime to every integer, and they are the only integers to be coprime with 0.
+
+A fast way to determine whether two numbers are coprime is given by the Euclidean algorithm.
+
+The number of integers coprime to a positive integer n, between 1 and n, is given by Euler's totient function (or Euler's phi function) φ(n).
+
+A set of integers can also be called coprime if its elements share no common positive factor except 1. A set of integers is said to be pairwise coprime if a and b are coprime for every pair (a, b) of different integers in it.</p1><br><br>
+		        <form class = "bs-example bs-example-form" role = "form">
+			      <div class = "input-group">
+			         <span class = "input-group-addon">Number</span>
+			         <input type = "text" id="a" class = "form-control" placeholder="to find the coprime for"> 
+			      </div>
+					
+			      <br>
+
+			      <div class = "input-group">
+			         <input type = "text" class = "form-control" id="b">
+			         <span class = "input-group-addon">Range</span>
+			      </div>
+					
+			      <br>
+			   </form>
+				<div class="wrapper">
+    					<button class="button" onclick="euclidian()">Calculate</button>
+					</div>
+			   <div class="jumbotron">
+			   		<h4 style="text-align:left;float:left;">COPrimes are:
+			   		<textarea  name="message" rows="10" id="write" style="text-align:right;float:right; visibility:hidden" >
+                    </textarea>
+			   		<hr style="clear:both;"/>
+				</div>
+		    </div>
+		  </div>
+		</div>
+</div>
+
+<div class="container" onload="calculate()">
+        <div class="row">
+          <div class="col-sm-10 col-md-11">
+            <div class="thumbnail">
+             <h1>CoPrime</h1>
+              <div class="caption">
+                <p1>In number theory, two integers a and b are said to be relatively prime, mutually prime, or coprime (also spelled co-prime)[1] if the only positive integer that evenly divides both of them is 1. That is, the only common positive factor of the two numbers is 1. This is equivalent to their greatest common divisor being 1.[2] The numerator and denominator of a reduced fraction are coprime. In addition to \gcd(a, b) = 1\; and (a, b) = 1,\; the notation a\perp b is sometimes used to indicate that a and b are relatively prime.[3]
+
+For example, 14 and 15 are coprime, being commonly divisible by only 1, but 14 and 21 are not, because they are both divisible by 7. The numbers 1 and −1 are the only integers coprime to every integer, and they are the only integers to be coprime with 0.
+
+A fast way to determine whether two numbers are coprime is given by the Euclidean algorithm.
+
+The number of integers coprime to a positive integer n, between 1 and n, is given by Euler's totient function (or Euler's phi function) φ(n).
+
+A set of integers can also be called coprime if its elements share no common positive factor except 1. A set of integers is said to be pairwise coprime if a and b are coprime for every pair (a, b) of different integers in it.</p1><br><br>
+                <form class = "bs-example bs-example-form" role = "form">
+                  <div class = "input-group">
+                     <span class = "input-group-addon">Number</span>
+                     <input type = "text" id="primitive" class = "form-control" placeholder="to find the primitiveroot for"> 
+                  </div>
+                    
+                  <br>
+
+               </form>
+                <div class="wrapper">
+                        <button class="button" onclick="calculate()">Calculate</button>
+                    </div>
+               <div class="jumbotron">
+                    <h4 style="text-align:left;float:left;">primitive roots are:
+                    <textarea  name="message" rows="10" id="primitivewrite" style="text-align:right;float:right; visibility:hidden" >
+                    </textarea>
+                    <hr style="clear:both;"/>
+                </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  
+    <script src="js/algo.js"></script>
+
+</script>
+</body>
+</html>

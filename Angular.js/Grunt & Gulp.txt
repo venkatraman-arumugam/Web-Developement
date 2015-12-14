@@ -1,0 +1,20 @@
+Grunt & Gulp
+
+	Tasks:
+		In Css
+			Sass
+			remove unnecessary char,spaces,dots
+			formely minification
+		In js
+			check js for errors-rescue is jsHint
+			Concatent multiple js file
+		Other Task
+			Optimization
+			Watch on certain task for changes
+
+What is Task Runners?
+	Configure all the above task such that it automatically run when needed.Ex Brunch,Cake,Grunt,Gulp.
+
+	Grunt        				Gulp
+	Configuration based			Write by coding
+	
