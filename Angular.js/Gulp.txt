@@ -1,0 +1,21 @@
+Gulp:
+	Node js Streams :
+		Is like a file flowing into task then to next,next util goal achieved
+
+	Plugins do Tasks
+
+	Install Glb Gulp
+		npm install -g gulp
+
+		then locally
+
+	gulp.src()
+	pipe()
+	gulp.des()
+
+
+	gulp.task('jshint',function(){
+	gulp.src('app/scripts/**/*.js')
+	.pipe(jshint())
+	.pipe(jshint.reportes(jshint-stylish))
+	}

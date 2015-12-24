@@ -1,0 +1,53 @@
+Grunt:
+	Based on configuration
+		install grunt-cli cmd interface pakege
+			install npm -g grunt-cli
+
+	Grunt locally for every project:
+		config info are in Gruntfile.js
+
+			//require module
+
+			//grunt init config
+
+			//grunt register task
+
+	We use Globbing({},*,**,/,!)
+
+		File patterns
+			* - any char except/
+			? - match single char except / 
+			**- match any number of char (or) match all files
+			{}- comma seperated list
+			! - if this does not match (or) exclude
+
+	Grunt Module:
+		JSHint:
+			Check the js code for errors.it is like an compiler
+			.jshintrc - A json file contains configuration
+			jshint-stylish - to format the output
+
+		While Deploying the website we need all the file in a single file/folder
+		to build distribution folder
+
+		Copy all the remaning file except css/js in app folder
+
+		grunt.register('build',['clean','jshint','cpoy']) - register task
+
+		Usemin:
+			Umberlla task
+				useminprep -> concat
+					-> cssmin -> uglify -> filerev ->usemin
+
+				look inside the html code for <!--build--><!--end-->
+
+		Watch:	
+			Whenever the file changes all the above tasks are done are automatically
+
+		Connect:
+			STarts a webserver to serve all the files in distribution folder
+
+
+		Task:
+			build,server
+			

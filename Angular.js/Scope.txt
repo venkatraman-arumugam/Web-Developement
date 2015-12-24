@@ -1,0 +1,18 @@
+Angular Scope:
+	Scope:
+		Scope refered to an object
+		Scope deteremines the Two-way binding
+
+		COntroller get info from domain model
+		controller set property of view
+		this property visible in view
+		view can be bound to a controller
+
+		controller and view in sync
+
+		Topmost scope is rootScope
+
+		Angular traverses the DOM
+
+			ng-controller create a new Scope,all scope created as child scope to root
+			child has all property of Parent scope.But not vice versa

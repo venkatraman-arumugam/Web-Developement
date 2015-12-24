@@ -1,0 +1,15 @@
+Scope:
+	Core of Two-way data bind
+	an access btw to controller & view
+
+	get data from controller and then scope updates to view
+
+	Top most scope is Root scope
+
+	Angular traverse through DOM
+	at every instance a new Scope is created
+
+	Every time a scope created it is a child scope
+
+ng-Show;
+	to show and hide details
