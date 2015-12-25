@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('conFusionApp')
+angular.module('confusionApp')
         .factory('menuFactory', function() {
-        	 var dishes=[
+          var dishes=[
                          {
                           name:'Uthapizza',
                           image: 'images/uthapizza.png',
@@ -161,11 +161,15 @@ angular.module('conFusionApp')
                                }                                                          ]
                         }
                         ];
-               menufac.getDishes = function(){
+
+               var menufac = {};
+
+                 menufac.getDishes = function(){
                                         return dishes;
                                     };
                     menufac.getDish = function (index) {
                                         return dishes[index];
                 };
                 return menufac;
+        
         });
