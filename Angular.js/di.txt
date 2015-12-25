@@ -1,0 +1,12 @@
+Dependency Injection:
+	Software design pattern.Used in app where one object is depend on Other.
+	Injection:passing one object to other.
+
+	Coined by Martin Folwer
+
+Ways an Object access other Object:
+	create object
+	declare as local variable
+	passed when needed
+
+
